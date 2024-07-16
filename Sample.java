@@ -27,7 +27,11 @@ class Sample
 					System.out.println("Enter Number: ");
 					n = sc.nextInt();
 					int fact = 1;
-					if(n<=0)
+					if(n<0)
+					{
+						System.out.println("Not Possible");
+					}
+					else if(n==0)
 					{
 						System.out.println(fact);
 					}
